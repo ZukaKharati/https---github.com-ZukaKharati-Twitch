@@ -1,0 +1,1129 @@
+.header {
+  height: 3rem;
+}
+
+.layout {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.layout1 {
+  display: flex;
+}
+
+.twitch {
+  width: 40px;
+  height: auto;
+  justify-content: space-between;
+}
+
+.twitchbutton {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+}
+
+.image1 {
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.browse {
+  margin-left: 20px;
+  font-family: sans-serif;
+  margin-top: -9px;
+  border-bottom: 3px solid blueviolet;
+}
+
+.browsebutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.browsetext {
+  font-size: 20px;
+  font-weight: 700;
+  color: blueviolet;
+}
+
+.tooltip:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 180%;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.dot3 {
+  margin-top: 4px;
+  margin-left: 2px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: transparent;
+}
+
+.dot3image {
+  width: 20px;
+  height: 20px;
+  margin-left: -6px;
+  margin-top: -1px;
+}
+
+.dot3image:hover {
+  color: black;
+  background-color: transparent;
+}
+
+.layout2 {
+  display: flex;
+  width: 400px;
+  margin-top: 5px;
+}
+
+.search {
+  display: flex;
+  margin-right: 140px;
+}
+
+.form {
+  display: flex;
+}
+
+input[type="search"] {
+  box-sizing: border-box;
+  border: 2px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="search"]:focus {
+  border: 2px solid blue;
+}
+
+.Search:hover {
+  border: 2px solid darkgray;
+}
+
+.Search {
+  width: 360px;
+  height: 35px;
+  border-radius: 7px 0px 0px 7px;
+  margin-left: 20px;
+}
+
+.button1 {
+  width: 30px;
+  height: 20px;
+  margin-top: 0px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.layout3 {
+  display: flex;
+  margin-top: 5px;
+}
+
+.movecrown {
+  height: 20px;
+  margin-right: -123px;
+}
+
+.crown:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.crown {
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.login {
+  display: flex;
+  margin-left: 130px;
+}
+
+.movelogin {
+  border: none;
+  padding-right: 8px;
+}
+
+.login1:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.login1 {
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.Login1 {
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.movesignup {
+  padding-right: 5px;
+}
+
+.signup:hover {
+  color: black;
+  background-color: darkviolet;
+}
+
+.signup {
+  background-color: blueviolet;
+  width: 70px;
+  border-radius: 6px;
+  border-width: 0px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+}
+
+.account1 {
+  height: 35px;
+}
+
+.accounttransparent:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.accounttransparent {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding-top: 5px;
+}
+
+.main {
+  display: flex;
+  margin-left: -8px;
+}
+
+.leftsidebar {
+  background-color: #e6e6ea;
+  height: 685px;
+}
+
+.recommended {
+  margin-top: -15px;
+  display: flex;
+  margin-left: 15px;
+}
+
+.h2 {
+  font-family: sans-serif;
+}
+
+.h2 {
+  font-size: 0.9rem;
+}
+
+.collapsediv {
+  margin-left: 20px;
+  margin-top: 19px;
+}
+
+.collapsebutton {
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.upside {
+  margin-top: -10px;
+  margin-left: 15px;
+}
+
+.firstbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.firstRecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.firstRecomm1 {
+  display: flex;
+}
+
+.firstRecomm12 {
+  margin-left: 7px;
+}
+
+.CCT_CS {
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -60px;
+}
+
+.Counter-Strike {
+  font-size: 10px;
+  margin-top: -8px;
+}
+
+.redlogo {
+  display: flex;
+  margin-left: 50px;
+  padding-left: 8px;
+}
+
+.reddot {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.secondButton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.secondRecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.firstRecomm111 {
+  display: flex;
+}
+
+.firstRecom123 {
+  margin-left: 7px;
+}
+
+.ESLCS {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -69px;
+}
+
+.Counter-Strike2 {
+  font-size: 10px;
+  margin-top: -8px;
+}
+
+.redlogo1 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot1 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.thirdbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.thirdRecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.thirdRecommendation {
+  display: flex;
+}
+
+.thirdRecommendation3 {
+  margin-left: 7px;
+}
+
+.watchFulltv {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -41px;
+}
+
+.Counter-Strike3 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo2 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot2 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.fourthbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.fourthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.fourthrecommendation {
+  display: flex;
+}
+
+.fourthrecommendation4 {
+  margin-left: 7px;
+}
+
+.IESF_CSGO {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -39px;
+}
+
+.Counter-Strike4 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo3 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot3 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* mexute */
+
+.fifththbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.fifthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.fifthrecommendation {
+  display: flex;
+}
+
+.fifthrecommendation5 {
+  margin-left: 7px;
+}
+
+.flOm {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-right: 73px;
+}
+
+.Counter-Strike5 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo4 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot4 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* მეექვსეს დასაწყისი */
+
+.sixthbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.sixthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.sixthrecommendation {
+  display: flex;
+}
+
+.sixthrecommendation6 {
+  margin-left: 7px;
+}
+
+.heatoncs {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -50px;
+}
+
+.Counter-Strike6 {
+  font-size: 10px;
+  margin-top: -9px;
+  margin-left: 6px;
+}
+
+.redlogo5 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot5 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.seventhbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.seventhrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.seventhrecommendation {
+  display: flex;
+}
+
+.seventhrecommendation7 {
+  margin-left: 7px;
+}
+
+.Astralis {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -59px;
+}
+
+.Counter-Strike7 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo6 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot6 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.eightbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.eigthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.eigthrecommendation {
+  display: flex;
+}
+
+.eightrecommendation8 {
+  margin-left: 7px;
+}
+
+.esportstudion {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -29px;
+}
+
+.Counter-Srike8 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo7 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot7 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* მეცხრე */
+.ninthbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.ninthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.ninthrecommendation {
+  display: flex;
+}
+
+.ninthrecommendation9 {
+  margin-left: 7px;
+}
+
+.TvArenaSport {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -29px;
+}
+
+.counter-strike9 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo8 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot8 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 3px;
+}
+
+.center {
+  left: 50%;
+  width: 1000px;
+  height: 400px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forpicandcount {
+  display: flex;
+  margin-right: 10%;
+  margin-top: 3%;
+  width: 800px;
+}
+
+.csglobal {
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.seconddiv {
+  display: flex;
+  margin-left: 20px;
+  margin-top: -25px;
+}
+
+.divforbuttons {
+  display: flex;
+}
+
+.gtabutton:hover {
+  color: black;
+  background-color: darkgray;
+}
+
+.gtabutton {
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 40px;
+}
+
+.fpstext22 {
+  margin-top: 2px;
+}
+
+.shooterbutton1 {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  background-color: lightgrey;
+}
+
+.shooterbutton1:hover {
+  color: black;
+  background-color: darkgrey;
+}
+
+.shootertext11 {
+  margin-top: 2px;
+}
+
+.action1 {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 60px;
+  background-color: lightgrey;
+}
+
+.action1:hover {
+  color: black;
+  background-color: darkgrey;
+}
+
+.actiontext1 {
+  margin-top: 2px;
+}
+
+.movedown {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.movedot1 {
+  margin-left: 10px;
+}
+
+.cshistory {
+  line-height: 1.5;
+}
+
+.cshistory1div {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+.followbutton {
+  display: flex;
+  cursor: pointer;
+  background-color: #772ce8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  width: 100px;
+  height: 36px;
+}
+
+.followbutton:hover {
+  background-color: darkviolet;
+}
+
+.follow {
+  margin-left: 20px;
+  height: 36px;
+}
+
+.heartbutton {
+  padding-top: 6px;
+  padding-left: 6px;
+}
+.followtext {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+ul {
+  list-style: none;
+}
+.unorderedList {
+  display: flex;
+}
+
+.secondMainLine {
+  margin-left: -77%;
+}
+
+.unorderedList {
+  margin-left: 95px;
+}
+
+.liveChannels {
+  background-color: transparent;
+  cursor: pointer;
+  color: blueviolet;
+  font-weight: 700;
+  font-size: larger;
+  border-bottom: 3px solid blueviolet;
+  height: 30px;
+}
+
+.videos {
+  padding-left: 25px;
+  font-size: larger;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.clips {
+  padding-left: 25px;
+  font-size: larger;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.searchTags {
+  height: 40px;
+  background-color: blueviolet;
+  width: 400px;
+}
+
+/* აქიდან იწყება ვიდეოების ნაწილი  */
+
+.videosLives {
+  display: flex;
+  margin-left: 40px;
+}
+
+.pirvelivideo {
+  display: flex;
+  flex-direction: column;
+}
+
+.videosDownside {
+  display: flex;
+}
+
+.Mibr {
+  display: flex;
+  flex-direction: column;
+}
+
+.mbr1 {
+  display: flex;
+  flex-direction: column;
+  /* padding-right: 10px; */
+}
+
+.MIBRvsEndpoint {
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.GRIDesports {
+  margin-top: -17px;
+  margin-left: 5px;
+}
+
+.grid10 {
+  display: flex;
+}
+
+.fpsbutton:hover {
+  color: black;
+  background-color: darkgray;
+}
+
+.fpsbutton {
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 60px;
+}
+
+.fpstext {
+  margin-top: 2px;
+}
+
+.shooter1 {
+  border-radius: 10px;
+  height: 20px;
+  background-color: lightgrey;
+  margin-left: 5px;
+}
+
+.shooterbutton:hover {
+  color: black;
+  background-color: darkgrey;
+}
+
+.shooterbutton {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  background-color: lightgrey;
+}
+
+.shootertext {
+  margin-top: 2px;
+}
+
+.csframe:hover {
+  cursor: pointer;
+}
+
+/* meore videos live */
+.secondVideo {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondVideo {
+  margin-left: 20px;
+}
+
+.thirdVideo {
+  margin-left: 20px;
+}
+
+.social .image3 {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+/* Clickze div */
+.loginfirst {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 400px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.line1 {
+  top: 5%;
+  left: 10%;
+  width: 400px;
+  height: 100px;
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+}
+
+.line2 {
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.imagestyle {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+}
+
+.line3 {
+  font-size: 1.5rem;
+}
+
+/* ეს იქნება გასასწორებელი */
+.line4 {
+  width: 400px;
+  height: 200px;
+  /* background-color: #772ce8; */
+}
+
+.line6 {
+  margin-left: 20px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellow; */
+}
+
+.line7 {
+  margin-left: -30px;
+}
+
+#txt {
+  width: 295px;
+}
+
+/* /// */
+
+.passwordDiv {
+  width: 400px;
+  /* background-color: deeppink; */
+}
+
+.passwordDiv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gold;
+}
+
+.passwordDiv2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: lawngreen; */
+}
+
+.passwordDiv21 {
+  margin-left: -10px;
+}
+
+#txt {
+  width: 400px;
+}
+
+.linktoanotherpage {
+  margin-left: -210px;
+}
+
+.loginbtn {
+  margin-top: 30px;
+}
+
+.account21 {
+  margin-top: 30px;
+  width: 410px;
+  height: 30px;
+  margin-left: -13px;
+}
+
+.account21:hover {
+  background-color: gainsboro;
+}
+
+.buttonSignUp:hover {
+  background-color: gainsboro;
+}
+
+.buttonSignUp {
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  color: blueviolet;
+  border: none;
+  padding-left: 30%;
+}

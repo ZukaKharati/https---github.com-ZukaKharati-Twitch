@@ -1,0 +1,732 @@
+.header {
+  height: 3rem;
+}
+
+.layout {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.layout1 {
+  display: flex;
+}
+
+.twitch {
+  width: 40px;
+  height: auto;
+  justify-content: space-between;
+}
+
+.twitchbutton {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+}
+
+.image1 {
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.browse {
+  margin-left: 20px;
+  font-family: sans-serif;
+  margin-top: -9px;
+  border-bottom: 3px solid blueviolet;
+}
+
+.browsebutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.browsetext {
+  font-size: 20px;
+  font-weight: 700;
+  color: blueviolet;
+}
+
+.tooltip:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 180%;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.dot3 {
+  margin-top: 4px;
+  margin-left: 2px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: transparent;
+}
+
+.dot3image {
+  width: 20px;
+  height: 20px;
+  margin-left: -6px;
+  margin-top: -1px;
+}
+
+.dot3image:hover {
+  color: black;
+  background-color: transparent;
+}
+
+.layout2 {
+  display: flex;
+  width: 400px;
+  margin-top: 5px;
+}
+
+.search {
+  display: flex;
+  margin-right: 140px;
+}
+
+.form {
+  display: flex;
+}
+
+input[type="search"] {
+  box-sizing: border-box;
+  border: 2px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="search"]:focus {
+  border: 2px solid blue;
+}
+
+.Search:hover {
+  border: 2px solid darkgray;
+}
+
+.Search {
+  width: 360px;
+  height: 35px;
+  border-radius: 7px 0px 0px 7px;
+  margin-left: 20px;
+}
+
+.button1 {
+  width: 30px;
+  height: 20px;
+  margin-top: 0px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.svg {
+  margin-left: -5px;
+  height: 20px;
+}
+
+.layout3 {
+  display: flex;
+  margin-top: 5px;
+}
+
+.movecrown {
+  height: 20px;
+  margin-right: -123px;
+}
+
+.crown:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.crown {
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.svg {
+  margin-left: -5px;
+  height: 20px;
+}
+
+.login {
+  display: flex;
+  margin-left: 130px;
+}
+
+.movelogin {
+  border: none;
+  padding-right: 8px;
+}
+
+.login1:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.login1 {
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.Login1 {
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.movesignup {
+  padding-right: 5px;
+}
+
+.signup:hover {
+  color: black;
+  background-color: darkviolet;
+}
+
+.signup {
+  background-color: blueviolet;
+  width: 70px;
+  border-radius: 6px;
+  border-width: 0px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+}
+
+.account1 {
+  height: 35px;
+}
+
+.accounttransparent:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.accounttransparent {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.account {
+  padding-top: 5px;
+}
+
+/*  */
+.main {
+  display: flex;
+  margin-left: -8px;
+}
+
+.leftsidebar {
+  /* background-color: lightgray; */
+  background-color: #e6e6ea;
+}
+
+.recommended {
+  margin-top: -15px;
+  display: flex;
+  margin-left: 15px;
+}
+
+.h2 {
+  font-family: sans-serif;
+}
+
+.collapsediv {
+  margin-left: 20px;
+  margin-top: 19px;
+}
+
+.collapsebutton {
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.upside {
+  margin-top: -10px;
+  margin-left: 15px;
+}
+
+.firstRecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.firstRecomm1 {
+  display: flex;
+}
+
+.firstRecomm12 {
+  margin-left: 7px;
+}
+
+.CCT_CS {
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -60px;
+}
+
+.Counter-Strike {
+  font-size: 10px;
+  margin-top: -8px;
+}
+
+.firstbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.redlogo {
+  display: flex;
+  margin-left: 50px;
+  padding-left: 8px;
+}
+
+.reddot {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* Second Div iwyeba aqedan */
+
+.secondButton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.secondRecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.firstRecomm111 {
+  display: flex;
+}
+
+.firstRecom123 {
+  margin-left: 7px;
+}
+
+.ESLCS {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -69px;
+}
+
+.Counter-Strike2 {
+  font-size: 10px;
+  margin-top: -8px;
+}
+
+.redlogo1 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot1 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* third Recommendation iwyeba */
+.thirdbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.thirdRecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.thirdRecommendation {
+  display: flex;
+}
+
+.thirdRecommendation3 {
+  margin-left: 7px;
+}
+
+.watchFulltv {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -41px;
+}
+
+.Counter-Strike3 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo2 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot2 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* 4th Recommendation */
+
+.fourthbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.fourthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.fourthrecommendation {
+  display: flex;
+}
+
+.fourthrecommendation4 {
+  margin-left: 7px;
+}
+
+.IESF_CSGO {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -39px;
+}
+
+.Counter-Strike4 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo3 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot3 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* mexute */
+
+.fifththbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.fifthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.fifthrecommendation {
+  display: flex;
+}
+
+.fifthrecommendation5 {
+  margin-left: 7px;
+}
+
+.flOm {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-right: 73px;
+}
+
+.Counter-Strike5 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo4 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot4 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* მეექვსეს დასაწყისი */
+
+.sixthbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.sixthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.sixthrecommendation {
+  display: flex;
+}
+
+.sixthrecommendation6 {
+  margin-left: 7px;
+}
+
+.heatoncs {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -50px;
+}
+
+.Counter-Strike6 {
+  font-size: 10px;
+  margin-top: -9px;
+  margin-left: 6px;
+}
+
+.redlogo5 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot5 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* მეშვიდეს დასაწყისი */
+.seventhbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.seventhrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.seventhrecommendation {
+  display: flex;
+}
+
+.seventhrecommendation7 {
+  margin-left: 7px;
+}
+
+.Astralis {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -59px;
+}
+
+.Counter-Strike7 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo6 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot6 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* მე-8 დასაწყისი. */
+.eightbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.eigthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.eigthrecommendation {
+  display: flex;
+}
+
+.eightrecommendation8 {
+  margin-left: 7px;
+}
+
+.esportstudion {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -29px;
+}
+
+.Counter-Srike8 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo7 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot7 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* მე-9 დასაწყისი */
+.ninthbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.ninthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.ninthrecommendation {
+  display: flex;
+}
+
+.ninthrecommendation9 {
+  margin-left: 7px;
+}
+
+.TvArenaSport {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -29px;
+}
+
+.counter-strike9 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo8 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot8 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 3px;
+}
+
+/* rightsidebar */

@@ -1,0 +1,1596 @@
+.header {
+  height: 3rem;
+}
+
+.layout {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.layout1 {
+  display: flex;
+}
+
+.layout2 {
+  display: flex;
+  width: 400px;
+  margin-top: 5px;
+}
+
+.layout3 {
+  display: flex;
+  margin-top: 5px;
+}
+
+.twitch {
+  width: 40px;
+  height: auto;
+  justify-content: space-between;
+}
+
+.image1 {
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.twitchbutton {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+}
+
+.Search:hover {
+  border: 2px solid darkgray;
+}
+
+.search {
+  display: flex;
+  margin-right: 140px;
+}
+
+.button1 {
+  width: 30px;
+  height: 20px;
+  margin-top: 0px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.browse {
+  margin-left: 20px;
+  font-family: sans-serif;
+  margin-top: -9px;
+  border-bottom: 3px solid blueviolet;
+}
+
+.browsebutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.browsetext {
+  font-size: 20px;
+  font-weight: 700;
+  color: blueviolet;
+}
+
+.form {
+  display: flex;
+}
+
+.dot3image {
+  width: 20px;
+  height: 20px;
+  margin-left: -6px;
+  margin-top: -1px;
+}
+
+.dot3image:hover {
+  color: black;
+  background-color: transparent;
+}
+
+.dot3 {
+  margin-top: 4px;
+  margin-left: 2px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: transparent;
+}
+
+.tooltip:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 180%;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.Search {
+  width: 360px;
+  height: 35px;
+  border-radius: 7px 0px 0px 7px;
+  margin-left: 20px;
+}
+
+input[type="search"] {
+  box-sizing: border-box;
+  border: 2px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="search"]:focus {
+  border: 2px solid blue;
+}
+
+.crown:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.movecrown {
+  height: 20px;
+  margin-right: -123px;
+}
+
+.crown {
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.svg {
+  margin-left: -5px;
+  height: 20px;
+}
+
+.movelogin {
+  border: none;
+  padding-right: 8px;
+}
+
+.movesignup {
+  padding-right: 5px;
+}
+
+.login {
+  display: flex;
+  margin-left: 130px;
+}
+
+.accounttransparent:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.accounttransparent {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.login1:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.login1 {
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.Login1 {
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.signup:hover {
+  color: black;
+  background-color: darkviolet;
+}
+
+.signup {
+  background-color: blueviolet;
+  width: 70px;
+  border-radius: 6px;
+  border-width: 0px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+}
+
+.account {
+  padding-top: 5px;
+}
+
+.account1 {
+  height: 35px;
+}
+
+button:disabled {
+  opacity: 1;
+  cursor: not-allowed;
+}
+
+/* ზემოთ არის ნავიგაციის სტილები, ქვემოთ იწყება main-ის გასტილვა*/
+
+.main {
+  display: flex;
+  margin-left: -8px;
+}
+
+.leftsidebar {
+  /* background-color: lightgray; */
+  background-color: #e6e6ea;
+}
+
+.recommended {
+  margin-top: -15px;
+  display: flex;
+  margin-left: 15px;
+}
+
+.h2 {
+  font-family: sans-serif;
+}
+
+.collapsediv {
+  margin-left: 20px;
+  margin-top: 19px;
+}
+
+.collapsebutton {
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.upside {
+  margin-top: -10px;
+  margin-left: 15px;
+}
+
+.firstRecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.firstRecomm1 {
+  display: flex;
+}
+
+.firstRecomm12 {
+  margin-left: 7px;
+}
+
+.CCT_CS {
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -60px;
+}
+
+.Counter-Strike {
+  font-size: 10px;
+  margin-top: -8px;
+}
+
+.firstbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.redlogo {
+  display: flex;
+  margin-left: 50px;
+  padding-left: 8px;
+}
+
+.reddot {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* Second Div iwyeba aqedan */
+
+.secondButton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.secondRecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.firstRecomm111 {
+  display: flex;
+}
+
+.firstRecom123 {
+  margin-left: 7px;
+}
+
+.ESLCS {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -69px;
+}
+
+.Counter-Strike2 {
+  font-size: 10px;
+  margin-top: -8px;
+}
+
+.redlogo1 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot1 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* third Recommendation iwyeba */
+.thirdbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.thirdRecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.thirdRecommendation {
+  display: flex;
+}
+
+.thirdRecommendation3 {
+  margin-left: 7px;
+}
+
+.watchFulltv {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -41px;
+}
+
+.Counter-Strike3 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo2 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot2 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* 4th Recommendation */
+
+.fourthbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.fourthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.fourthrecommendation {
+  display: flex;
+}
+
+.fourthrecommendation4 {
+  margin-left: 7px;
+}
+
+.IESF_CSGO {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -39px;
+}
+
+.Counter-Strike4 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo3 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot3 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* mexute */
+
+.fifththbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.fifthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.fifthrecommendation {
+  display: flex;
+}
+
+.fifthrecommendation5 {
+  margin-left: 7px;
+}
+
+.flOm {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-right: 73px;
+}
+
+.Counter-Strike5 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo4 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot4 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* მეექვსეს დასაწყისი */
+
+.sixthbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.sixthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.sixthrecommendation {
+  display: flex;
+}
+
+.sixthrecommendation6 {
+  margin-left: 7px;
+}
+
+.heatoncs {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -50px;
+}
+
+.Counter-Strike6 {
+  font-size: 10px;
+  margin-top: -9px;
+  margin-left: 6px;
+}
+
+.redlogo5 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot5 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* მეშვიდეს დასაწყისი */
+.seventhbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.seventhrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.seventhrecommendation {
+  display: flex;
+}
+
+.seventhrecommendation7 {
+  margin-left: 7px;
+}
+
+.Astralis {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -59px;
+}
+
+.Counter-Strike7 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo6 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot6 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* მე-8 დასაწყისი. */
+.eightbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.eigthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.eigthrecommendation {
+  display: flex;
+}
+
+.eightrecommendation8 {
+  margin-left: 7px;
+}
+
+.esportstudion {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -29px;
+}
+
+.Counter-Srike8 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo7 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot7 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+/* მე-9 დასაწყისი */
+.ninthbutton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 30px;
+}
+
+.ninthrecommendation {
+  display: flex;
+  margin-left: -6px;
+  height: 30px;
+}
+
+.ninthrecommendation {
+  display: flex;
+}
+
+.ninthrecommendation9 {
+  margin-left: 7px;
+}
+
+.TvArenaSport {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: -29px;
+}
+
+.counter-strike9 {
+  font-size: 10px;
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.redlogo8 {
+  display: flex;
+  margin-left: 47px;
+  padding-left: 8px;
+}
+
+.reddot8 {
+  background-color: red;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 3px;
+}
+
+/* მარჯვენა მხარე */
+.rightsidebar {
+  background-color: #f7f7f8;
+}
+
+.browse2 {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.simple-bar {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 40px;
+  font-family: sans-serif;
+}
+
+.games:hover {
+  background-color: darkviolet;
+}
+
+.games {
+  cursor: pointer;
+  display: flex;
+  background-color: #772ce8;
+  color: white;
+  border: none;
+  padding-top: -3px;
+  padding-left: -10px;
+  width: 220px;
+  border-radius: 8px;
+  font-weight: 700;
+  height: 40px;
+}
+
+.gamesimage {
+  position: absolute;
+  width: 60px;
+  margin-top: -5px;
+  margin-left: 145px;
+  height: 50px;
+}
+
+.irl:hover {
+  background-color: darkviolet;
+}
+
+.irl {
+  cursor: pointer;
+  display: flex;
+  background-color: #772ce8;
+  color: white;
+  border: none;
+  padding-top: -3px;
+  padding-left: -10px;
+  width: 220px;
+  border-radius: 8px;
+  font-weight: 700;
+  height: 40px;
+}
+
+.irlimage {
+  position: absolute;
+  width: 60px;
+  margin-top: -5px;
+  margin-left: 155px;
+  height: 50px;
+}
+
+.irl1 {
+  margin-left: 5px;
+}
+
+.music:hover {
+  background-color: darkviolet;
+}
+
+.music {
+  cursor: pointer;
+  display: flex;
+  background-color: #772ce8;
+  color: white;
+  border: none;
+  padding-top: -3px;
+  padding-left: -10px;
+  width: 220px;
+  border-radius: 8px;
+  font-weight: 700;
+  height: 40px;
+}
+
+.musicimage {
+  position: absolute;
+  width: 60px;
+  margin-top: -5px;
+  margin-left: 155px;
+  height: 50px;
+}
+
+.music1 {
+  margin-left: 5px;
+}
+
+.esports1:hover {
+  background-color: darkviolet;
+}
+
+.esports1 {
+  cursor: pointer;
+  display: flex;
+  background-color: #772ce8;
+  color: white;
+  border: none;
+  padding-top: -3px;
+  padding-left: -10px;
+  width: 220px;
+  border-radius: 8px;
+  font-weight: 700;
+  height: 40px;
+}
+
+.esportsimage {
+  position: absolute;
+  width: 60px;
+  margin-top: -5px;
+  margin-left: 155px;
+  height: 50px;
+}
+
+.esports {
+  margin-left: 5px;
+}
+
+.creative1:hover {
+  background-color: darkviolet;
+}
+
+.creative1 {
+  cursor: pointer;
+  display: flex;
+  background-color: #772ce8;
+  color: white;
+  border: none;
+  padding-top: -3px;
+  padding-left: -10px;
+  width: 220px;
+  border-radius: 8px;
+  font-weight: 700;
+  height: 40px;
+}
+
+.creativeimage {
+  position: absolute;
+  width: 60px;
+  margin-top: -5px;
+  margin-left: 155px;
+  height: 50px;
+}
+
+.creative {
+  margin-left: 5px;
+}
+
+.secondbar {
+  display: flex;
+  margin-top: 45px;
+  margin-left: 43px;
+}
+
+.categorybutton {
+  background-color: transparent;
+  cursor: pointer;
+  padding-right: 100px;
+  border-radius: 8px;
+  font-weight: 700;
+  height: 40px;
+  width: 200px;
+  margin-left: -8px;
+  margin-top: -2px;
+  color: blueviolet;
+  border: none;
+}
+
+.newDiv {
+  border-bottom: 3px solid blueviolet;
+  width: 70px;
+  height: 20px;
+}
+
+.text {
+  margin-left: -1px;
+}
+
+.livechannelsbutton {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding-right: 100px;
+  border-radius: 8px;
+  font-weight: 700;
+  height: 40px;
+  width: 200px;
+  margin-left: -120px;
+}
+
+.livechannels {
+  margin-left: 8px;
+}
+
+.thirdbar {
+  display: flex;
+}
+
+.searchsvg {
+  position: absolute;
+  margin-left: -175px;
+  width: 18px;
+  margin-top: -5px;
+}
+
+.searchform {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.searchradius {
+  border-radius: 4px;
+}
+
+.sortby {
+  margin-left: 740px;
+  margin-top: 30px;
+}
+
+.cs1first {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.counter1:hover {
+  color: darkviolet;
+}
+
+.counter1 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -5px;
+}
+
+.viewers1 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -5px;
+}
+
+.viewers1:hover {
+  color: darkviolet;
+}
+
+.viewers11 {
+  margin-top: -20px;
+}
+
+.thirdbar {
+  display: flex;
+}
+
+.h2 {
+  font-size: 0.9rem;
+}
+
+.shooter {
+  display: flex;
+  margin-top: -12px;
+}
+
+.fpsbutton:hover {
+  color: black;
+  background-color: darkgray;
+}
+
+.FPS {
+  width: 50px;
+  border-radius: 5px;
+  height: 20px;
+  width: 40px;
+}
+
+.fpsbutton {
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 40px;
+}
+
+.fpstext {
+  margin-top: 2px;
+}
+
+.FPStext1 {
+  margin-top: 2px;
+}
+
+.strategytext {
+  margin-top: 2px;
+}
+
+.strategytext1 {
+  margin-top: 2px;
+}
+
+.shootertext11 {
+  margin-top: 2px;
+}
+
+.rpgtext {
+  margin-top: 2px;
+}
+
+.fpstext22 {
+  margin-top: 2px;
+}
+
+.shooterbutton:hover {
+  color: black;
+  background-color: darkgrey;
+}
+
+.shooter1 {
+  width: 50px;
+  border-radius: 10px;
+  height: 20px;
+  width: 60px;
+  background-color: lightgrey;
+  margin-left: 5px;
+}
+
+.shooterbutton {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 60px;
+  background-color: lightgrey;
+}
+
+.shootertext {
+  margin-top: 2px;
+}
+
+.shootertext1 {
+  margin-top: 2px;
+}
+
+.mobatext {
+  margin-top: 2px;
+}
+
+.fpsss {
+  margin-top: -9px;
+  margin-left: -5px;
+  display: flex;
+}
+
+.valorant1 {
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+.dota2 {
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+.league {
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+.gta {
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+.counter2:hover {
+  color: darkviolet;
+}
+
+.counter2 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -5px;
+}
+
+.dota20:hover {
+  color: darkviolet;
+}
+
+.dota20 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -5px;
+}
+
+.league1:hover {
+  color: darkviolet;
+}
+
+.league1 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -5px;
+}
+
+.gta1 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -5px;
+}
+
+.gta1:hover {
+  color: darkviolet;
+}
+
+.h2second {
+  margin-top: 12px;
+  font-size: 1rem;
+}
+
+.viewers2 {
+  margin-top: -23px;
+}
+
+.dota220 {
+  margin-top: -23px;
+}
+
+.league10 {
+  margin-top: -23px;
+}
+
+.gta10 {
+  margin-top: -23px;
+}
+
+.viewers22 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -5px;
+}
+
+.viewers22:hover {
+  color: darkviolet;
+}
+
+.dota221 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -7px;
+}
+
+.dota221:hover {
+  color: darkviolet;
+}
+
+.gta11 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -7px;
+}
+
+.gta11:hover {
+  color: darkviolet;
+}
+
+.league101 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -7px;
+}
+
+.league101:hover {
+  color: darkviolet;
+}
+
+.fps2 {
+  display: flex;
+  margin-top: -9px;
+  margin-left: -4px;
+}
+
+.fpsbutton2:hover {
+  color: black;
+  background-color: darkgray;
+}
+
+.fpsbutton2 {
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 40px;
+}
+
+.shooter2 {
+  width: 50px;
+  border-radius: 10px;
+  height: 20px;
+  width: 60px;
+  background-color: lightgrey;
+  margin-left: 5px;
+}
+
+.shooter222:hover {
+  color: black;
+  background-color: darkgrey;
+}
+
+.shooter222 {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 60px;
+  background-color: lightgrey;
+}
+
+.dota22 {
+  margin-left: -2px;
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+.fps3 {
+  display: flex;
+  margin-top: -7px;
+  margin-left: -4px;
+}
+
+.fpsbutton3:hover {
+  color: black;
+  background-color: darkgray;
+}
+
+.fpsbutton3 {
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 65px;
+}
+
+.fps4button:hover {
+  color: black;
+  background-color: darkgray;
+}
+
+.fps4button {
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 40px;
+}
+
+.gtabutton:hover {
+  color: black;
+  background-color: darkgray;
+}
+
+.gtabutton {
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 40px;
+}
+
+.moba {
+  width: 50px;
+  border-radius: 10px;
+  height: 20px;
+  width: 60px;
+  background-color: lightgrey;
+  margin-left: 5px;
+}
+
+.Strategy4 {
+  width: 50px;
+  border-radius: 10px;
+  height: 20px;
+  width: 60px;
+  background-color: lightgrey;
+  margin-left: 5px;
+}
+
+/* aq unda shesworeba */
+.shooter {
+  width: 50px;
+  border-radius: 10px;
+  height: 20px;
+  width: 60px;
+  background-color: lightgrey;
+  margin-left: 5px;
+  margin-top: 1px;
+}
+
+.moba2:hover {
+  color: black;
+  background-color: darkgrey;
+}
+
+.moba2 {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 60px;
+  background-color: lightgrey;
+}
+
+.strategybutton:hover {
+  color: black;
+  background-color: darkgrey;
+}
+
+.strategybutton {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 60px;
+  background-color: lightgrey;
+}
+
+.shooterbutton1 {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+  width: 60px;
+  background-color: lightgrey;
+}
+
+.shooterbutton1:hover {
+  color: black;
+  background-color: darkgrey;
+}
+
+.league22 {
+  margin-left: -2px;
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+.fps4 {
+  display: flex;
+  margin-top: -9px;
+  margin-left: -4px;
+}
+
+.gta511 {
+  display: flex;
+  margin-top: -9px;
+  margin-left: -4px;
+}
+
+.gta {
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+.gta55 {
+  margin-left: -2px;
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+/* javascriptis nawili */
+
+/* ეს არის ძირითადი დივ რო გავსტილო. */
+.product-row {
+  background-color: whitesmoke;
+  position: absolute;
+  width: 200px;
+  height: 500px;
+}
+
+.product {
+  padding-left: 15px;
+  padding-top: 8px;
+}
+
+.product-label1 {
+  font-family: sans-serif;
+  color: #53535f;
+  font-weight: 600;
+}
+
+.product-label {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #53535f;
+  font-weight: 500;
+}
+
+.product-field {
+  width: 175px;
+  background-color: transparent;
+}
+
+.product-field:hover {
+  background-color: lightgrey;
+  border-radius: 7px;
+}
+
+/* Create Login Div part */
+
+.loginfirst {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 400px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.line1 {
+  top: 5%;
+  left: 10%;
+  width: 400px;
+  height: 100px;
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+}
+
+.line2 {
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.imagestyle {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+}
+
+.line3 {
+  font-size: 1.5rem;
+}
+
+/* ეს იქნება გასასწორებელი */
+.line4 {
+  width: 400px;
+  height: 200px;
+  /* background-color: #772ce8; */
+}
+
+.line6 {
+  margin-left: 20px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellow; */
+}
+
+.line7 {
+  margin-left: -30px;
+}
+
+#txt {
+  width: 295px;
+}
+
+/* /// */
+
+.passwordDiv {
+  width: 400px;
+  /* background-color: deeppink; */
+}
+
+.passwordDiv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gold;
+}
+
+.passwordDiv2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: lawngreen; */
+}
+
+.passwordDiv21 {
+  margin-left: -10px;
+}
+
+#txt {
+  width: 400px;
+}
+
+.linktoanotherpage {
+  margin-left: -210px;
+}
+
+.loginbtn {
+  margin-top: 30px;
+}
+
+.account21 {
+  margin-top: 30px;
+  width: 410px;
+  height: 30px;
+  margin-left: -13px;
+}
+
+.account21:hover {
+  background-color: gainsboro;
+}
+
+.buttonSignUp:hover {
+  background-color: gainsboro;
+}
+
+.buttonSignUp {
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  color: blueviolet;
+  border: none;
+  padding-left: 30%;
+}

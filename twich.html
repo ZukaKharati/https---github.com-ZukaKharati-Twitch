@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitch</title>
+    <link rel="stylesheet" href="./twitch.css" />
+  </head>
+  <body >
+    <nav class="header">
+      <div class="layout">
+          <div class="layout1">
+            <div class="twitch">
+              <button class="twitchbutton">
+                <img class="image1" src="./twitch/download.png" alt="twitch" width="25px" height="25px" />
+              </button>
+            </div>
+            
+            <div class="browse browseline">
+              <button class="browsebutton">
+                <p class="browsetext" id="browsetext1" >Browse</p>
+              </button>
+            </div>
+            <div class="tooltip" id="dot33">
+              <button class="dot3" onclick="createDivonDots()">
+                <span class="tooltiptext">More</span>
+                <img
+                  class="dot3image"
+                  src="./twitch/download1.png"
+                  alt="twitch dots"
+                  width="20px"
+                  height="20px"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div class="layout2">
+            <div class="search">
+              <form class="form">
+                  <div>
+                    <input type="search" class="Search" placeholder="Search" id="textsend" onkeyup="success()"/>
+                  </div>
+                  <div class="searchbutton">
+                    <button type="submit" class="button1" id="button" disabled>
+                      <svg
+                        class="svg"
+                        width="25px"
+                        height="25px"
+                        viewBox="0 0 20 20"
+                        x="0px"
+                        y="0px"
+                        data-a-selector="tw-core-button-icon"
+                        class="ScIconSVG-sc-1q25cff-1 dSicFr"
+                        >
+                        <g>
+                          <path
+                            fill-rule="evenodd"
+                            d="M13.192 14.606a7 7 0 111.414-1.414l3.101 3.1-1.414 1.415-3.1-3.1zM14 9A5 5 0 114 9a5 5 0 0110 0z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                    </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="layout3">
+            <div class="movecrown">
+              <button class="crown">
+                <svg
+                  class="svg"
+                  width="25px"
+                  height="25px"
+                  viewBox="0 0 20 20"
+                  x="0px"
+                  y="0px"
+                  data-a-selector="tw-core-button-icon"
+                  class="ScIconSVG-sc-1q25cff-1 dSicFr"
+                  >
+                  <path
+                    fill-rule="evenodd"
+                    d="M13.798 10.456 10 6.657l-3.798 3.799L4 8.805V13h12V8.805l-2.202 1.65zM18 5v8a2 2 0 0 1-2 2H4a2.002 2.002 0 0 1-2-2V5l4 3 4-4 4 4 4-3z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div class="login">
+              <div class="movelogin" id="createlogin" onclick="logIn()">
+                <button class="login1">
+                  <div class="Login1">Log In</div>
+                </button>
+              </div>
+
+              <div class="movesignup">
+                <div class="SignUp">
+                  <button class="signup">
+                    Sign Up
+                  </button>
+                </div>
+              </div>
+
+              <div class="moveaccount">
+                <div class="account1">
+                  <button class="accounttransparent">
+                    <img
+                      class="account"
+                      src="./twitch/account-25.png"
+                      alt="account"
+                      width="25px"
+                      height="25px"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="main">
+      <div class="leftsidebar">
+        <div class="recommended">
+            <h5 class="h2">RECOMMENDED CHANNELS</h5>
+          <div class="collapsediv">
+            <button class="collapsebutton">
+              <svg width="100%" height="100%" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" aria-hidden="true" focusable="false" class="ScIconSVG-sc-1q25cff-1 dSicFr"><g><path d="M16 16V4h2v12h-2zM6 9l2.501-2.5-1.5-1.5-5 5 5 5 1.5-1.5-2.5-2.5h8V9H6z"></path></g></svg>
+            </button>
+          </div>
+        </div>
+        <div class="upside">
+          <div>  
+            <button class="firstbutton">
+              <div class="firstRecommendation">
+                <div>
+                  <img src="./twitch/577a78c1-9d8a-4a25-ac71-abbcabfb9fd0-profile_image-70x70.jpeg" class="firstimage"
+                  alt="cs" width="25px" height="25px"> 
+                </div>
+                <div class="firstRecomm1">
+                  <div class="firstRecomm12">
+                    <div>
+                      <p class="CCT_CS">CCT_CS</p>
+                    </div>
+                    <div>
+                      <p class="Counter-Strike">
+                        Counter-Strike:GLobal
+                      </p>
+                    </div>
+                  </div>
+                    <div class="redlogo">
+                      <div class="reddot"></div>
+                      <div><span>1.9K</span></div>
+                    </div>
+                </div>
+              </div>
+            </button>
+          </div>
+          <div>
+            <button class="secondButton">
+              <div class="secondRecommendation">
+                <div>
+                  <img src="./twitch/second image.jpeg" class="secondimage" alt="secondimage" width="25px" height="25px"> 
+                </div>
+                <div class="firstRecomm111">
+                  <div class="firstRecom123">
+                    <div>
+                      <p class="ESLCS">ESLCS</p>
+                    </div>
+                    <div>
+                      <p class="Counter-Strike2">
+                        Counter-Strike: GLobal
+                      </p>
+                    </div>
+                  </div>
+                    <div class="redlogo1">
+                      <div class="reddot1"></div>
+                      <div><span>1.6K</span></div>
+                    </div>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <div>
+            <button class="thirdbutton">
+              <div class="thirdRecommendation">
+                <div>
+                  <img src="./twitch/thirdimage.png" alt="thirdimage" class="thirdimage"  width="25px" height="25px">
+                </div>
+                <div class="thirdRecommendation">
+                  <div class="thirdRecommendation3">
+                    <div>
+                      <p class="watchFulltv">watchFulltv</p>
+                    </div>
+                    <div>
+                      <p class="Counter-Strike3">
+                        Counter-Strike: GLobal
+                      </p>
+                    </div>
+                  </div>
+                    <div class="redlogo2">
+                      <div class="reddot2"></div>
+                      <div><span>1.7K</span></div>
+                    </div>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <div class="4">
+            <button class="fourthbutton">
+              <div class="fourthrecommendation">
+                <div>
+                  <img src="./twitch/7379ca5e-431a-4551-9f54-bee547c00c9e-profile_image-70x70.png" alt="fourthimage" class="fourthimage" 
+                  width="25px" height="25px">
+                </div>
+                <div class="fourthrecommendation">
+                  <div class="fourthrecommendation4">
+                    <div>
+                      <p class="IESF_CSGO">IESF_CSGO</p>
+                    </div>
+                    <div>
+                      <p class="Counter-Strike4">
+                        Counter-Strike: GLobal
+                      </p>
+                    </div>
+                  </div>
+                    <div class="redlogo3">
+                      <div class="reddot3"></div>
+                      <div><span>1.5K</span></div>
+                    </div>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <div class="5">
+            <button class="fifththbutton">
+              <div class="fifthrecommendation">
+                <div>
+                  <img src="./twitch/5th image.png" alt="fifthimage" class="fifthimage" width="25px" height="25px">
+                </div>
+                <div class="fifthrecommendation">
+                  <div class="fifthrecommendation5">
+                    <div>
+                      <p class="flOm">flOM</p>
+                    </div>
+                    <div>
+                      <p class="Counter-Strike5">
+                        Counter-Strike: GLobal
+                      </p>
+                    </div>
+                  </div>
+                    <div class="redlogo4">
+                      <div class="reddot4"></div>
+                      <div><span>15K</span></div>
+                    </div>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <div class="6">
+            <button class="sixthbutton">
+              <div class="sixthrecommendation">
+                <div>
+                  <img src="./twitch/6thimage.png" alt="sixthimage" class="sixthimage" width="25px" height="25px">
+                </div>
+                <div class="sixthrecommendation">
+                  <div class="sixthrecommendation6">
+                    <div>
+                      <p class="heatoncs">HeatoNcs</p>
+                    </div>
+                    <div>
+                      <p class="Counter-Strike6">
+                        Counter-Strike: GLobal
+                      </p>
+                    </div>
+                  </div>
+                    <div class="redlogo5">
+                      <div class="reddot5"></div>
+                      <div><span>14k</span></div>
+                    </div>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <div class="7">
+            <button class="seventhbutton">
+              <div class="seventhrecommendation">
+                <div>
+                  <img src="./twitch/7th.png" alt="seventhimage" class="seventhimage" width="25px" height="25px">
+                </div>
+                <div class="seventhrecommendation">
+                  <div class="seventhrecommendation7">
+                    <div>
+                      <p class="Astralis">Astralis</p>
+                    </div>
+                    <div>
+                      <p class="Counter-Strike7">
+                        Counter-Strike: GLobal
+                      </p>
+                    </div>
+                  </div>
+                    <div class="redlogo6">
+                      <div class="reddot6"></div>
+                      <div><span>12k</span></div>
+                    </div>
+                </div>
+              </div>
+            </button> 
+          </div>
+
+          <div class="8">
+            <button class="eightbutton">
+              <div class="eigthrecommendation">
+                <div>
+                  <img src="./twitch/8th image.png" alt="eightimage" class="eightimage" width="25px" height="25px">
+                </div>
+                <div class="eigthrecommendation">
+                  <div class="eightrecommendation8">
+                    <div>
+                      <p class="esportstudion">esportstudion</p>
+                    </div>
+                    <div>
+                      <p class="Counter-Srike8">
+                        Counter-Strike: GLobal
+                      </p>
+                    </div>
+                  </div>
+                    <div class="redlogo7">
+                      <div class="reddot7"></div>
+                      <div><span>11K</span></div>
+                    </div>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <div class="9">
+            <button class="ninthbutton">
+              <div class="ninthrecommendation">
+                <div>
+                  <img src="./twitch/9th image.png" alt="ninthimage" class="ninthimage" width="25px" height="25px">
+                </div>
+                <div class="ninthrecommendation">
+                  <div class="ninthrecommendation9">
+                    <div>
+                      <p class="TvArenaSport">TvArenaSport</p>
+                    </div>
+                    <div>
+                      <p class="counter-strike9">
+                        Counter-Strike: Global
+                      </p>
+                    </div>
+                  </div>
+                    <div class="redlogo8">
+                      <div class="reddot8"></div>
+                      <div><span>10K</span></div>
+                  </div>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="rightsidebar">
+        <div class="browse2">Browse</div>
+
+        <div class="simple-bar">
+          <div class="games1">
+            <button class="games">
+              <p>Games</p>
+              <img src="./twitch/gaming.svg" alt="gaming image" class="gamesimage" width="40px" height="40px">
+            </button>
+          </div>
+
+            <div class="irl1">
+              <button class="irl">
+                <p>IRL</p> 
+                <img src="./twitch/irl.svg" alt="IRL image" class="irlimage" width="40px" height="40px">
+              </button>
+            </div>
+          
+          <div class="music1">
+            <button class="music">
+              <p>Music</p>
+              <img src="./twitch/music.svg" alt="music image" class="musicimage" width="40px" height="40px">
+            </button>
+          </div>
+
+          <div class="esports">
+            <button class="esports1">
+              <p>Esports</p>
+              <img src="./twitch/esports.svg" alt="esports image" class="esportsimage" width="40px" height="40px">
+            </button>
+          </div>
+
+          <div class="creative">
+            <button class="creative1">
+              <p class="creative">Creative</p>
+              <img src="./twitch/creative.svg" alt="creative image" class="creativeimage" width="40px" height="40px">
+            </button>
+          </div>
+        </div>
+
+        <div class="secondbar">
+          <div class="categories">
+            <button class="categorybutton">
+              <div class="newDiv">
+              <p class="text">Categories</p>
+              </div>
+            </button>
+          </div>
+          
+          <div class="livechannels">
+            <button class="livechannelsbutton">
+              <p>Live Channels</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="thirdbar">
+          <div>
+            <form class="searchform">
+              <input type="search" class="searchradius" placeholder="Search Category Tags">
+            </form>
+          </div>
+
+          <div class="sortby">
+            <form>
+              <label for="sortby" id="label111">Sort by</label>
+              <select id="sory" name="sort">
+                <option value="recommend">Recommended for you</option>
+                <option value="viewers">Viewers</option>
+              </select>
+            </form>
+          </div>
+
+        </div>
+          <div class="thirdbar">
+              <div class="cs1first">
+                <a href="twitch2.html">
+                  <img src="./twitch/Cs1image.jpg" alt="cs image" class="cs.image" width="200px" height="260px">
+                </a>
+                <a href="twitch2.html">
+                  <div>
+                    <button class="counter1">
+                      <h2 class="h2" title="Counter Strike: Global Offen">Counter Strike: Global Offen</h2>
+                    </button>
+                  </div>
+                  <div class="viewers11">
+                    <button class="viewers1">
+                      <p class="viewers233">
+                        23.3K viewers
+                      </p>
+                    </button>
+                  </div>
+                  <div class="fpsss">
+                    <div class="FPS">
+                      <button class="fpsbutton">
+                        <p class="fpstext">FPS</p>
+                      </button>
+                    </div>
+                    <div class="shooter1">
+                      <button class="shooterbutton">
+                        <p class="shootertext">Shooter</p>
+                      </button>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            
+              <div class="valorant1">
+                <a href="twitch2.html">
+                  <img src="./twitch/valorant.jpg" alt="valorant" class="valorantimage" width="200px" height="260px">
+                </a>
+                <a href="twitch2.html">
+                  <div>
+                    <button class="counter2">
+                      <h2 class="h2second">Valorant</h2>
+                    </button>
+                  </div>
+                  <div class="viewers2">
+                    <button class="viewers22">
+                      <p class="viewers222">
+                        20.1K viewers
+                      </p>
+                    </button>
+                  </div>
+                  <div class="fps2">
+                    <div class="fps22">
+                      <button class="fpsbutton2">
+                        <p class="FPStext1">FPS</p>
+                      </button>
+                    </div> 
+                    <div class="shooter2">
+                      <button class="shooter222">
+                        <p class="shootertext1">Shooter</p>
+                      </button>
+                    </div> 
+                  </div>
+                </a>
+              </div>
+            
+            <div class="dota2">
+              <a href="twitch2.html">
+                <img src="./twitch/dota2.png" alt="dota" class="dotaimage" width="200px" height="260px">
+              </a>
+              <a href="twitch2.html">
+              <div>
+                <button class="dota20">
+                  <h2 class="dota22">Dota 2</h2>
+                </button>
+              </div>
+              <div class="dota220">
+                <button class="dota221">
+                  <p>
+                    87.6k Viewers
+                  </p>
+                </button>
+              </div>
+              <div class="fps3">
+                <div class="fps333">
+                  <button class="fpsbutton3">
+                    <p class="strategytext">Strategy</p>
+                  </button>
+                </div>
+                <div class="moba">
+                  <button class="moba2">
+                    <p class="mobatext">Moba</p>
+                  </button>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <div class="league">
+              <a href="twitch2.html">
+                <img src="./twitch/legends.jpg" alt="league" class="leagueoflegends" width="200px" height="260px">
+              </a>
+              <a href="twitch2.html">
+                <div>
+                  <button class="league1">
+                    <h2 class="league22">League of Legends</h2>
+                  </button>
+                </div>
+                <div class="league10">
+                  <button class="league101">
+                    <p>
+                      63.5K Viewers
+                    </p>
+                  </button>
+                </div>
+                <div class="fps4">
+                  <div>
+                    <button class="fps4button">
+                      <p class="rpgtext">RPG</p>
+                    </button>
+                  </div>
+                  <div class="Strategy4">
+                    <button class="strategybutton">
+                      <p class="strategytext1">Strategy</p>
+                    </button>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="gta">
+              <a href="twitch2.html">
+                <img src="./twitch/gta5.jpg" alt="gta" class="gta5" width="200px" height="260px">
+              </a>
+              <a href="twitch2.html">
+              <div>
+                <button class="gta1">
+                  <h2 class="gta55">Grand Theft Auto V</h2>
+                </button>
+              </div>
+              <div class="gta10">
+                <button class="gta11">
+                  <p>
+                  58.7K Viewers
+                  </p>
+                </button>
+              </div>
+              <div class="gta511">
+                <div>
+                  <button class="gtabutton">
+                    <p class="fpstext22">FPS</p>
+                  </button>
+                </div>
+                <div class="shooter">
+                  <button class="shooterbutton1">
+                    <p class="shootertext11">Shooter</p>
+                  </button>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+    
+      </div>
+    </div>
+    <script src="twitch.js"></script>
+  </body>
+</html>
